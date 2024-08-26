@@ -1,0 +1,4 @@
+{
+    "start": "gunicorn -w 4 main:app",
+    "install": "pip3 install -r requirements.txt"
+}
